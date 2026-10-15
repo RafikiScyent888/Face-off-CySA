@@ -208,13 +208,14 @@ TOPICS["cysa"] = {
     "NETWORK PROTOCOLS": [
         "ARP", "BGP", "DHCP", "DNS", "DoH", "ICMP", "IP", "TCP", "UDP",
         "NTP", "SNMP", "SMB", "FTP", "TFTP", "SFTP", "SSH", "RDP", "SMTP",
-        "LAN", "WAN", "VLAN", "URI", "URL", "MAC", "OUI", "SNI", "UTC",
+        "LAN", "WAN", "VLAN", "URI", "URL", "OUI", "SNI", "UTC",
     ],
     "ENCRYPTION & CERTIFICATES": [
         "CA", "PKI", "SSL", "TLS", "HTTPS", "HTTP", "MD5", "RSA", "CBC",
         "GPG", "LDAPS", "DKIM", "DMARC", "SPF",
     ],
     "IDENTITY & ACCESS": [
+        "MAC",   # Mandatory Access Control in this bank (owner, 15 October 2026), not the network address
         "ACL", "IAM", "MFA", "SAML", "SSO", "RADIUS", "PAM", "NAC", "GPO",
         "ZTA", "ZTNA",
     ],
